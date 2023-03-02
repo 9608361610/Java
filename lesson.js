@@ -75,5 +75,10 @@ arr.forEach(function(item, i, array) {
     console.log('Элемент: ${item}
     Индекс: ${i}
     Удвоенный элемент: ${item*2}')
-}) Почему то выдает ошибку
-
+})*/
+// Почему то выдает ошибку
+let arr = [5, 7, 9, 1, 0];
+let newArr = arr.map(function(item) {
+    return item*3
+})
+console.log(newArr)
